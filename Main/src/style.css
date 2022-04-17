@@ -1,0 +1,59 @@
+body{
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.main-card{
+    height: 450px;
+    width: 275px;
+    border-radius: 17px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-code{
+    height: 247px;
+    width: 247px;
+    border-radius: 16px;
+    margin-top: -4px;
+    padding-bottom: 4px;
+}
+
+.main-text{
+    color: hsl(218, 44%, 22%);
+    font-size: 9px;
+    font-weight: 700;
+    padding: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.sec-text{
+    font-size: 15px;
+    font-weight: 400px;
+    color: hsl(220, 15%, 55%);
+    text-align: center; 
+    padding: 6px;
+    margin-top: -6px;
+}
+
+.attribution{
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
